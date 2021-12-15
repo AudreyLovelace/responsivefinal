@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   color: white;
+  list-style: none;
 }
 
 @font-face {
@@ -23,7 +24,7 @@
     margin-bottom: 10px;
   }
   header div {
-    width: 100px;
+    width: 80px;
     height: 150px;
   }
   header div a {
@@ -41,6 +42,13 @@
     width: 100%;
     margin: 0 0 10px 0;
   }
+
+  footer div {
+    max-width: 80%;
+  }
+  footer div h3 {
+    margin-right: 0;
+  }
 }
 
 body {
@@ -50,18 +58,16 @@ body {
 .container {
   width: 700px;
   margin: 20px auto 0 auto;
-
-  position: relative;
 }
 
-header h3 {
+header h3 a {
   font-family: roboto;
   display: inline;
   float: left;
   margin-right: 380px;
 }
 
-header a {
+header div a {
   font-family: bakbak;
   display: inline;
   float: left;
@@ -82,7 +88,7 @@ main img {
 main div {
   text-align: center;
   position: relative;
-  top: -400px;
+  top: -310px;
   font-family: roboto;
 }
 
@@ -101,7 +107,7 @@ main div a {
 section {
   position: relative;
   margin: 0 auto;
-  top: -300px;
+  top: -150px;
   width: 100%;
 }
 section div {
@@ -110,4 +116,53 @@ section div {
 }
 section div img {
   height: 100%;
+}
+
+footer {
+  height: 40px;
+  background-color: rgb(43, 36, 36);
+}
+footer div {
+  width: 700px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+footer div h3 {
+  font-family: roboto;
+  display: flex;
+  justify-content: left;
+}
+footer div div {
+  display: flex;
+  justify-content: center;
+  margin-top: -30px;
+}
+footer div span {
+  color: white;
+  font-size: 15px;
+  margin-right: 10px;
+}
+footer div p {
+  display: flex;
+  justify-content: right;
+  font-family: roboto;
+  font-size: 10px;
+  margin-top: -13px;
+}
+a {
+  transition: 200ms all ease-in-out;
+}
+a:hover {
+  color: #cfcfcf;
+  text-decoration: underline;
+}
+
+main a:hover {
+  color: black;
+  background-color: #cfcfcf;
+  text-decoration: none;
+}
+h3 a:hover {
+  text-decoration: none;
+  cursor: pointer;
 }
