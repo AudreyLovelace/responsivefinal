@@ -18,7 +18,6 @@
 @media (max-width: 699px) {
   .container {
     max-width: 80%;
-    min-width: 300px;
   }
   header h3 {
     margin-bottom: 10px;
@@ -29,6 +28,7 @@
   }
   header div a {
     display: block;
+    margin: 0;
     padding: 5px 0;
   }
   section {
@@ -36,16 +36,10 @@
   }
   section div {
     display: inline;
-    width: 100%;
-    margin: 0;
-    padding: 0;
   }
   section img {
-    margin: 0 auto;
-    padding: 0;
-    display: inline-block;
     width: 100%;
-    height: auto;
+    margin: 0 0 10px 0;
   }
 }
 
@@ -56,7 +50,7 @@ body {
 .container {
   width: 700px;
   margin: 20px auto 0 auto;
-  padding: 0 30px;
+
   position: relative;
 }
 
@@ -64,14 +58,14 @@ header h3 {
   font-family: roboto;
   display: inline;
   float: left;
-  margin-right: 320px;
+  margin-right: 380px;
 }
 
 header a {
   font-family: bakbak;
   display: inline;
   float: left;
-  margin: 0 10px 0 0;
+  margin: 0 0 0 10px;
 }
 
 main {
@@ -106,15 +100,14 @@ main div a {
 
 section {
   position: relative;
+  margin: 0 auto;
   top: -300px;
   width: 100%;
 }
 section div {
-  width: 100%;
-  height: 150px;
-  margin: 10px;
+  height: 180px;
+  margin: 0 0 5px 0;
 }
 section div img {
   height: 100%;
-  margin: 5px;
 }
