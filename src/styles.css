@@ -32,6 +32,9 @@
     margin: 0;
     padding: 5px 0;
   }
+  main {
+    width: 300px;
+  }
   section {
     max-width: 100%;
   }
@@ -60,11 +63,17 @@ body {
   margin: 20px auto 0 auto;
 }
 
+.active {
+  text-decoration: underline;
+  color: #cfcfcf;
+}
+
 header h3 a {
   font-family: roboto;
   display: inline;
   float: left;
   margin-right: 380px;
+  margin-bottom: 5px;
 }
 
 header div a {
