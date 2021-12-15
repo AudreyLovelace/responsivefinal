@@ -49,7 +49,7 @@
 
   footer div {
     max-width: 100%;
-    padding: 0 10px;
+    margin: 0;
   }
   footer div h3 {
     margin-right: 0;
@@ -135,6 +135,7 @@ section div img {
 }
 
 footer {
+  max-width: 100%;
   height: 40px;
   background-color: rgb(43, 36, 36);
 }
@@ -148,12 +149,12 @@ footer div h3 {
   display: flex;
   justify-content: left;
 }
-footer div div {
+footer div span {
   display: flex;
   justify-content: center;
-  margin-top: -30px;
+  margin-top: -20px;
 }
-footer div span {
+footer div span li {
   color: white;
   font-size: 15px;
   margin-right: 10px;
