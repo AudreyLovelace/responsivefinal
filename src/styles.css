@@ -54,6 +54,9 @@
   footer div h3 {
     margin-right: 0;
   }
+  footer div p {
+    display: none;
+  }
 }
 
 body {
