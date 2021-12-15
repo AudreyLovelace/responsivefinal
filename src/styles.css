@@ -137,11 +137,14 @@ section div img {
 }
 
 footer {
-  max-width: 130%;
-  height: 40px;
   background-color: rgb(43, 36, 36);
+  height: 40px;
 }
+
 footer div {
+  background-color: rgb(43, 36, 36);
+  height: 40px;
+
   width: 700px;
   margin: 0 auto;
   padding-top: 10px;
@@ -165,7 +168,7 @@ footer div p {
   display: flex;
   justify-content: right;
   font-family: roboto;
-  font-size: 7px;
+  font-size: 15px;
   margin-top: -13px;
 }
 a {
