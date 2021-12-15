@@ -55,7 +55,8 @@
     margin-right: 0;
   }
   footer div p {
-    display: none;
+    display: inline;
+    float: right;
   }
 }
 
