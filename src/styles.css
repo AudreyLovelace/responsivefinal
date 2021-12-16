@@ -57,9 +57,7 @@
     margin-right: 0;
   }
   footer div p {
-    display: inline;
-    float: right;
-    font-size: 6px;
+    visibility: hidden;
   }
 }
 
