@@ -36,6 +36,7 @@
   main {
     width: 100%;
   }
+
   section {
     width: 100%;
   }
@@ -45,6 +46,7 @@
   section img {
     width: 100%;
     margin: 0 0 10px 0;
+    padding: 40px;
   }
 
   footer div {
@@ -71,8 +73,7 @@ body {
 }
 
 .active {
-  text-decoration: underline;
-  color: #cfcfcf;
+  color: #c2c2c2;
 }
 
 header h3 a {
@@ -173,7 +174,7 @@ a {
   transition: 200ms all ease-in-out;
 }
 a:hover {
-  color: #cfcfcf;
+  color: #a5a5a5;
   text-decoration: underline;
 }
 
