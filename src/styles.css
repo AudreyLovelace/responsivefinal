@@ -280,6 +280,8 @@ p {
 }
 
 .displaynone {
-  opacity: 0;
+  display: none;
+}
+.gap {
   height: 150px;
 }
