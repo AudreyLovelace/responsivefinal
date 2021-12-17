@@ -114,7 +114,7 @@ main div h1,
 main div p {
   margin-bottom: 30px;
 }
-main div a {
+.btn {
   color: black;
   background-color: white;
   padding: 20px;
@@ -180,14 +180,16 @@ a {
 a:hover {
   color: #a5a5a5;
   text-decoration: underline;
+  cursor: pointer;
 }
 
-main a:hover {
+.btn:hover {
   color: black;
   background-color: #cfcfcf;
   text-decoration: none;
 }
-h3 a:hover {
+h3 a:hover,
+main a:hover {
   text-decoration: none;
   cursor: pointer;
 }
@@ -200,4 +202,7 @@ h2 {
 
 .unseen {
   visibility: hidden;
+}
+h4 {
+  color: rgb(255, 80, 118);
 }
