@@ -137,14 +137,14 @@ section div img {
 
 footer {
   background-color: rgb(43, 36, 36);
-  height: 40px;
+  height: 45px;
   position: relative;
   bottom: 0;
 }
 
 footer div {
   background-color: rgb(43, 36, 36);
-  height: 40px;
+  height: 35px;
 
   width: 700px;
   margin: 0 auto;
@@ -160,17 +160,19 @@ footer div span {
   justify-content: center;
   margin-top: -20px;
 }
-footer div span li {
+footer div span a,
+footer div span a:hover {
   color: white;
   font-size: 15px;
   margin-right: 10px;
+  text-decoration: none;
 }
 footer div p {
   display: flex;
   justify-content: right;
   font-family: roboto;
   font-size: 15px;
-  margin-top: -13px;
+  margin-top: -15px;
 }
 a {
   transition: 200ms all ease-in-out;
