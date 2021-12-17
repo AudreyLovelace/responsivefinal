@@ -4,6 +4,7 @@
   padding: 0;
   color: white;
   list-style: none;
+  font-family: ROBOTO;
 }
 
 @font-face {
@@ -61,6 +62,22 @@
   footer div p {
     visibility: hidden;
   }
+
+  .hide {
+    display: none;
+  }
+  .hide1 {
+    display: inline;
+    opacity: 1;
+  }
+
+  .whole {
+    width: 80%;
+    margin: 0 10%;
+  }
+  .aboutpotrait {
+    width: 100%;
+  }
 }
 
 body {
@@ -91,6 +108,9 @@ header div a {
   margin: 0 0 0 10px;
 }
 
+header div a:hover {
+  text-decoration: underline;
+}
 main {
   width: 400px;
   margin: 0 auto;
@@ -117,8 +137,9 @@ main div p {
 .btn {
   color: black;
   background-color: white;
-  padding: 20px;
+  padding: 10px 20px;
   border-radius: 30px;
+  font-family: roboto;
 }
 
 section {
@@ -179,7 +200,7 @@ a {
 }
 a:hover {
   color: #a5a5a5;
-  text-decoration: underline;
+  text-decoration: none;
   cursor: pointer;
 }
 
@@ -205,10 +226,56 @@ h2 {
 }
 h4 {
   color: rgb(255, 80, 118);
+  font-family: ROBOTO;
+}
+.about {
+  height: 350px;
+  position: relative;
+  top: -350px;
+  padding: 0;
+  margin: 0 auto;
 }
 .half {
-  margin: 0;
-  width: 40%;
+  height: 350px;
+  display: inline-block;
+  float: left;
+  width: 50%;
+}
+
+.half img {
+  width: 100%;
+}
+.contact {
+  height: 650px;
+  position: relative;
+  top: -50px;
+}
+
+p {
+  font-family: arial;
+  font-weight: 100;
+}
+
+.lable {
+  background-color: rgb(43, 36, 36);
+  height: 50px;
+  border-radius: 5px;
+  width: 340px;
+}
+.lable img {
+  width: 40px;
+  display: inline;
+  margin: 0 15px;
+  margin-top: 12px;
+  float: left;
+}
+.lable p {
   display: inline;
   float: left;
+  margin-top: 14px;
+}
+
+.hide1 {
+  height: 0;
+  opacity: 0;
 }
