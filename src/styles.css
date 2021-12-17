@@ -138,6 +138,8 @@ section div img {
 footer {
   background-color: rgb(43, 36, 36);
   height: 40px;
+  position: relative;
+  bottom: 0;
 }
 
 footer div {
@@ -186,4 +188,14 @@ main a:hover {
 h3 a:hover {
   text-decoration: none;
   cursor: pointer;
+}
+
+h2 {
+  font-family: roboto;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.unseen {
+  visibility: hidden;
 }
